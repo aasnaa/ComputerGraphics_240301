@@ -1,6 +1,0 @@
-Digital Differential Analyzer (DDA) Algorithm:
-This algorithm is an incremental scan conversion method.
-It calculates the change in x and y coordinates (dx and dy) between the two endpoints of the line.
-It determines the number of steps based on the larger of abs(dx) or abs(dy).
-It then calculates x_increment and y_increment (which can be fractional) and iteratively adds these increments to the current x and y values, rounding to the nearest integer for pixel plotting.
-Limitation: It uses floating-point arithmetic, which can be computationally slower and introduce round-off errors.

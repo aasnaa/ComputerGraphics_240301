@@ -1,5 +1,0 @@
-The Basic Line Algorithm (BLA) is the simplest technique for drawing a straight line on a raster display.
-It works by using the mathematical line equation to calculate intermediate points between two endpoints.
-While BLA is easy to understand and useful for learning the basics of line generation in computer graphics, 
-it is not efficient for practical applications due to its use of floating-point calculations and lower accuracy.
-Therefore, more optimized algorithms like DDA and Bresenham’s Line Algorithm are preferred in real-world graphics systems.
